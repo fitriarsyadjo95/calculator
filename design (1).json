@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "title": "Design Identity \u2013 Apple Store-Inspired",
+    "version": "1.0.0",
+    "created_at": "2025-08-13T03:17:39.813083",
+    "source_asset": "/mnt/data/screencapture-apple-my-store-2025-08-13-11_15_43.png",
+    "description": "A lightweight design system JSON capturing color, type, spacing, components, and content tone based on the provided Apple Store page screenshot."
+  },
+  "brand": {
+    "name": "Store",
+    "voice_tone": [
+      "minimal",
+      "confident",
+      "helpful",
+      "premium"
+    ],
+    "tagline_style": "Short, benefit-led phrases (e.g., 'The best way to buy the products you love.')",
+    "logo_usage": {
+      "type": "wordmark/system icon",
+      "safe_area": "x-height on all sides",
+      "min_size_px": 16
+    }
+  },
+  "foundations": {
+    "color": {
+      "description": "Neutral-first palette with a single, vivid system blue for actions. Subtle grays build depth without harsh borders.",
+      "palette": {
+        "background": {
+          "page": "#FFFFFF",
+          "surface": "#F5F5F7",
+          "elevated": "#FFFFFF"
+        },
+        "content": {
+          "text_primary": "#1D1D1F",
+          "text_secondary": "#6E6E73",
+          "text_tertiary": "#86868B",
+          "links_default": "#0066CC",
+          "link_hover": "#004999"
+        },
+        "lines": {
+          "divider": "#D2D2D7",
+          "card_border": "#E5E5EA"
+        },
+        "accents": {
+          "blue": "#0066CC",
+          "green": "#34C759",
+          "orange": "#FF9500",
+          "red": "#FF3B30",
+          "purple": "#AF52DE",
+          "yellow": "#FFCC00",
+          "teal": "#30B0C7",
+          "pink": "#FF2D55",
+          "black": "#000000"
+        },
+        "overlays": {
+          "scrim": "rgba(0,0,0,0.4)",
+          "shadow_soft": "rgba(0,0,0,0.06)"
+        }
+      },
+      "states": {
+        "focus_ring": {
+          "color": "#0066CC",
+          "width": 2,
+          "style": "outline"
+        },
+        "hover": {
+          "elevation": 1,
+          "tint": "rgba(0,0,0,0.02)"
+        },
+        "active": {
+          "elevation": 0,
+          "scale": 0.995
+        }
+      }
+    },
+    "typography": {
+      "font_family_primary": [
+        "SF Pro Text",
+        "SF Pro Display",
+        "Helvetica Neue",
+        "Helvetica",
+        "Arial",
+        "system-ui",
+        "sans-serif"
+      ],
+      "font_features": [
+        "liga",
+        "kern",
+        "onum"
+      ],
+      "scale": {
+        "display": {
+          "size_px": 44,
+          "line_px": 48,
+          "weight": 600,
+          "tracking": -0.5
+        },
+        "headline": {
+          "size_px": 32,
+          "line_px": 38,
+          "weight": 600
+        },
+        "title": {
+          "size_px": 24,
+          "line_px": 30,
+          "weight": 600
+        },
+        "subhead": {
+          "size_px": 20,
+          "line_px": 26,
+          "weight": 600
+        },
+        "body": {
+          "size_px": 17,
+          "line_px": 24,
+          "weight": 400
+        },
+        "callout": {
+          "size_px": 16,
+          "line_px": 22,
+          "weight": 500
+        },
+        "footnote": {
+          "size_px": 14,
+          "line_px": 20,
+          "weight": 400
+        },
+        "caption": {
+          "size_px": 12,
+          "line_px": 16,
+          "weight": 400
+        }
+      }
+    },
+    "spacing": {
+      "unit": 4,
+      "scale_px": [
+        0,
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        32,
+        40,
+        48,
+        56,
+        64,
+        80
+      ],
+      "container_padding": {
+        "mobile_px": 16,
+        "tablet_px": 24,
+        "desktop_px": 40
+      },
+      "section_vertical_px": {
+        "compact": 32,
+        "regular": 56,
+        "spacious": 80
+      }
+    },
+    "grid": {
+      "breakpoints_px": {
+        "xs": 0,
+        "sm": 600,
+        "md": 834,
+        "lg": 1024,
+        "xl": 1280,
+        "xxl": 1440
+      },
+      "columns": {
+        "mobile": 4,
+        "tablet": 8,
+        "desktop": 12
+      },
+      "gutter_px": {
+        "mobile": 12,
+        "tablet": 16,
+        "desktop": 24
+      },
+      "max_width_px": 1280,
+      "card_radius_px": 16,
+      "card_shadow": "0 2px 12px rgba(0,0,0,0.06)"
+    },
+    "iconography": {
+      "library": "SF Symbols",
+      "stroke": 1.5,
+      "corner_style": "rounded",
+      "sizes_px": [
+        16,
+        20,
+        24,
+        28,
+        32,
+        40
+      ]
+    },
+    "motion": {
+      "principles": [
+        "subtle",
+        "purposeful",
+        "context-preserving"
+      ],
+      "durations_ms": {
+        "fast": 120,
+        "regular": 200,
+        "slow": 320
+      },
+      "curves": {
+        "standard": "cubic-bezier(0.2, 0.8, 0.2, 1)",
+        "emphasized": "cubic-bezier(0.2, 0.6, 0.0, 1)"
+      }
+    },
+    "accessibility": {
+      "min_touch_target_px": 44,
+      "min_text_contrast_ratio": 4.5,
+      "link_style": {
+        "underline_on_hover": true,
+        "color": "#0066CC"
+      },
+      "keyboard_navigation": {
+        "focus_visible": true,
+        "skip_links": true
+      }
+    }
+  },
+  "components": {
+    "top_nav": {
+      "height_px": 44,
+      "background": "#FFFFFF",
+      "items": [
+        "Store",
+        "Mac",
+        "iPad",
+        "iPhone",
+        "Watch",
+        "AirPods",
+        "TV & Home",
+        "Entertainment",
+        "Accessories",
+        "Support"
+      ],
+      "utilities": [
+        "search",
+        "bag",
+        "account"
+      ],
+      "behavior": {
+        "sticky": true,
+        "shadow_on_scroll": true
+      }
+    },
+    "category_tiles": {
+      "description": "Row of compact icon + label entries for quick category access.",
+      "tile": {
+        "size_px": {
+          "w": 56,
+          "h": 56
+        },
+        "label_size_px": 12,
+        "gap_px": 8
+      }
+    },
+    "hero_card": {
+      "description": "Primary promotional card with product image and CTA.",
+      "layout": "image-dominant",
+      "min_height_px": 320,
+      "media_ratio": "16:9",
+      "cta_style": {
+        "type": "link",
+        "color": "#0066CC"
+      }
+    },
+    "info_strips": {
+      "description": "Horizontal list of benefits (trade-in, installments, engraving, pickup).",
+      "item": {
+        "icon": "outline",
+        "title_weight": 600,
+        "body_size_px": 14
+      }
+    },
+    "product_card": {
+      "image_ratio": "1:1",
+      "radius_px": 16,
+      "hover": {
+        "elevate": true
+      },
+      "content": [
+        "badge",
+        "title",
+        "price",
+        "shipping",
+        "cta"
+      ]
+    },
+    "chips": {
+      "description": "Pill-shaped quick links in the 'Quick Links' area.",
+      "shape": "pill",
+      "padding_px": {
+        "x": 12,
+        "y": 6
+      },
+      "border": {
+        "color": "#D2D2D7"
+      },
+      "gap_px": 8
+    },
+    "footer": {
+      "background": "#F5F5F7",
+      "text_color": "#6E6E73",
+      "columns": 5,
+      "smallprint_max_width_px": 980
+    },
+    "cta_link": {
+      "default": {
+        "color": "#0066CC",
+        "underline": false
+      },
+      "hover": {
+        "underline": true,
+        "color": "#004999"
+      },
+      "visited_color": "#6E6E73"
+    },
+    "badges": {
+      "variants": {
+        "limited_time": {
+          "bg": "#FFCC00",
+          "text": "#1D1D1F"
+        },
+        "new": {
+          "bg": "#34C759",
+          "text": "#000000"
+        },
+        "exclusive": {
+          "bg": "#AF52DE",
+          "text": "#FFFFFF"
+        }
+      }
+    }
+  },
+  "content_guidelines": {
+    "titles": {
+      "style": "Sentence case, short and direct"
+    },
+    "subtitles": {
+      "style": "Value-forward; often time-bound (e.g., 'Get 3 months of Apple Music free.')"
+    },
+    "body_copy": {
+      "length": "1\u20132 short sentences",
+      "tone": "assured and helpful"
+    },
+    "cta": {
+      "pattern": [
+        "Learn more",
+        "Buy",
+        "Shop"
+      ],
+      "link_cta": true
+    }
+  },
+  "layout_patterns": [
+    {
+      "name": "Hero grid (3-up)",
+      "usage": "Top of page promos: Pro device, student savings, iPad Air",
+      "grid": {
+        "columns": 12,
+        "spans": [
+          6,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Benefit strips (4-up)",
+      "usage": "Apple Store difference",
+      "grid": {
+        "columns": 12,
+        "spans": [
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Accessories rail",
+      "usage": "3\u20134 cards, scroll on mobile",
+      "grid": {
+        "columns": 12,
+        "spans": [
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    },
+    {
+      "name": "Service promos (2-up)",
+      "usage": "Apple Intelligence / Let them know it's on the way",
+      "grid": {
+        "columns": 12,
+        "spans": [
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "name": "Quick links chips",
+      "usage": "Compact actions before footer",
+      "grid": {
+        "columns": 12,
+        "spans": "auto-flow"
+      }
+    }
+  ],
+  "content_examples": {
+    "headline": "The best way to buy the products you love.",
+    "benefit": "Trade in your device, get credit towards a new one.",
+    "promo": "Pay 0% interest for up to 24 months.",
+    "cta_examples": [
+      "Learn more",
+      "Shop now",
+      "Buy"
+    ]
+  }
+}
