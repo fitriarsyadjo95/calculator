@@ -1,0 +1,13 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Mobile-friendly calculator app",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve .",
+    "build": "echo 'No build step needed - static files'"
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
